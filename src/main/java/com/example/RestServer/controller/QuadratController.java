@@ -13,7 +13,7 @@ public class QuadratController {
         this.quaService = quaService;
     }
 
-
+//Hallo
     @GetMapping("/ergebnis")
     Long getQua() {
         return quaService.getQuadrat();
