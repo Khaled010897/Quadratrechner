@@ -1,7 +1,7 @@
 package com.example.RestServer.dto;
 
 public class Quadrat {
-    private long ergebnis = 2;
+    private long ergebnis = 0;
 
     public long getErgebnis() {return ergebnis;
     }
