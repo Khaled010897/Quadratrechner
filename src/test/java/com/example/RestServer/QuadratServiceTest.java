@@ -29,7 +29,7 @@ class QuadratServiceTest {
     @Test
     void testMinuswert() {
         quaService.quadratberechnen(-10);
-        assertEquals(100, quaService.getQuadrat());
+        assertEquals(100, quaService.getQuadrat());//Test
     }
 
 }
